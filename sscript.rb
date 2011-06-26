@@ -5,6 +5,8 @@ require "smartscript/smartscript.rb"
 SScript = SmartScript.name "sscript"
 SScript.no_debug
 
+SScript.usage_hint "Add some hints to the usage message..."
+
 SScript.register "hello_world", "Prints \"Hello world!\"." do
   puts "Hello world!"
 end

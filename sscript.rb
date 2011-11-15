@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require "smartscript/smartscript.rb"
+require "smart-script.rb"
 
 SScript = SmartScript.name "sscript"
 SScript.no_debug

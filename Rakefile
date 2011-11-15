@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "smart-script"
   gem.homepage = "http://github.com/AlexanderFabisch/Smart-Script"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{A short ruby class that saves lots of code for simple Linux scripts.}
+  gem.summary = %Q{A short ruby class that saves lots of code for simple Linux scripts.}
   gem.email = "afabisch@tzi.de"
   gem.authors = ["Alexander Fabisch"]
+  gem.files = Dir['lib/*.rb']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

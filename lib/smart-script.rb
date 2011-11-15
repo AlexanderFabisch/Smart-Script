@@ -1,4 +1,4 @@
-require "smartscript/shell_helper.rb"
+require "shell_helper.rb"
 
 # Smart Script enables fast script programming without any overhead.
 class SmartScript

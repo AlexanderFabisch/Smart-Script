@@ -41,10 +41,12 @@ module ShellHelper
     puts blue(description) if verbose
   end
 
+  # Make a command start as background process.
   def background cmd
     cmd + " &"
   end
 
+  # Suppress the standard output of a command.
   def suppress_stdout cmd
     cmd + " > /dev/null"
   end

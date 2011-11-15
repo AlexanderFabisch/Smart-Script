@@ -13,7 +13,6 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "smart-script"
   gem.homepage = "http://github.com/AlexanderFabisch/Smart-Script"
   gem.license = "MIT"

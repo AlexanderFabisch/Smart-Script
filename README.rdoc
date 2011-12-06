@@ -2,6 +2,12 @@
 
 A short ruby class that saves lots of code for simple Linux scripts.
 
+== Installing smart-script
+
+* Download smart-script
+* Change to smart-script directory
+* Type in 'rake install'
+
 == Contributing to smart-script
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet

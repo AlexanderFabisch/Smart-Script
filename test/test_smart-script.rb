@@ -1,7 +1,9 @@
 require 'helper'
 
 class TestSmartScript < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "have the correct name" do
+    MyScript = SmartScript.name "correct_name"
+    my_script = MyScript.new
+    assert_equal "correct_name", my_script.name
   end
 end

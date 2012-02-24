@@ -7,8 +7,8 @@ SScript.no_debug
 
 SScript.usage_hint "Add some hints to the usage message..."
 
-SScript.register "hello_world", "Prints \"Hello world!\"." do
-  puts "Hello world!"
+SScript.register "hello_world name", "Prints \"Hello world\" and greets \"name\"." do |name|
+  puts "Hello world, hello #{name}!"
 end
 
 SScript.register "cmd command", "Executes command in shell." do |command|

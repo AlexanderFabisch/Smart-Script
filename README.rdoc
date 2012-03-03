@@ -20,7 +20,7 @@ A short ruby class that saves lots of code for simple Linux scripts.
 
 == Example
 
- :include:sscript.rb
+ See sscript.rb
 
 == Copyright
 
